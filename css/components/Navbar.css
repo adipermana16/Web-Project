@@ -1,0 +1,25 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color:gray;
+}
+
+.Navbar_menu{
+    display: flex;
+    column-gap: 50px;
+}
+
+.Navbar_brand{
+
+}
+.navbar_input{
+    display: flex;
+}
+.navbar_input input{
+    display: flex;
+    border-radius: 5px;
+}
+.navbar_input button{
+    background-color: gray;
+}

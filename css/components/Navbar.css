@@ -15,11 +15,16 @@
 }
 .navbar_input{
     display: flex;
+    background-color: gray;
 }
 .navbar_input input{
     display: flex;
     border-radius: 5px;
+    width: auto;
+    height: 30px;
 }
 .navbar_input button{
     background-color: gray;
+    width: 30px;
+    height: 30px;
 }

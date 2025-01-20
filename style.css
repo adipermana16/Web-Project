@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.countainer{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.box{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+}
+.box:nth-child(1) {
+    height: 300px;
+}
+.box:nth-child(2) {
+    height: 300px;
+    transform: rotate(-19deg);
+    background-color: brown;
+    z-index: 10;
+}
+
+.box:nth-child(3) {
+    height: 300px;
+}
